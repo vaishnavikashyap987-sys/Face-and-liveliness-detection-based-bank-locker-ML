@@ -13,7 +13,8 @@ Traditional biometric systems are vulnerable to spoofing attacks using photos, v
   To prevent spoofing attacks using static images or recorded videos
   To implement real-time face recognition with liveness validation
   To simulate secure locker access control
-🚀 Key Features
+      🚀 Key Features
+      
   1. Real-Time Face Detection
 Detects human faces from a live webcam feed
 Uses Haar Cascade classifier for efficient detection
@@ -35,8 +36,9 @@ Grants access only when both conditions are satisfied:
 Face matches authorized user
 Liveness (blink) is verified
 Displays access status: “Access Granted” / “Access Denied”
-🧠 Technology Stack
-Programming Language
+           🧠 Technology Stack
+     
+     Programming Language
 Python – Core development and logic implementation
 Libraries & Frameworks
 OpenCV – Image processing and real-time video capture
@@ -46,7 +48,7 @@ NumPy – Array operations and calculations
 Machine Learning Models
 Haar Cascade Classifier (for face & eye detection)
 Pre-trained face recognition model (dlib-based)
-📂 Project Structure
+    📂 Project Structure
 Face-Liveness-Bank-Locker/
 │
 ├── face_liveness_locker.py       # Main implementation file
@@ -59,7 +61,8 @@ Face-Liveness-Bank-Locker/
 └── cascades/
     ├── haarcascade_frontalface_default.xml   # Face detection model
     └── haarcascade_eye.xml                   # Eye detection model
-⚙️ Working Principle (Step-by-Step)
+            ⚙️ Working Principle (Step-by-Step)
+     
 Video Capture Initialization
 Webcam starts capturing real-time frames
 Face Detection
@@ -76,17 +79,23 @@ If no blink → possible spoof attempt
 Authentication Decision
 If Face Match + Blink Verified → Access Granted
 Else → Access Denied
+
 🔒 Security Advantages
+
 Prevents photo-based spoofing attacks
 Reduces risk of video replay attacks
 Provides multi-layer authentication (Face + Liveness)
 Enhances security compared to traditional PIN/password systems
+
 ⚠️ Limitations
+
 Performance may degrade in low lighting conditions
 Requires clear visibility of eyes for blink detection
 Limited to single authorized user (in current implementation)
 Haar Cascade is less accurate compared to deep learning models
+
 🔮 Future Enhancements
+
 Multi-user support with database integration
 Integration with Deep Learning models (CNNs) for better accuracy
 Advanced liveness detection (head movement, depth sensing)
