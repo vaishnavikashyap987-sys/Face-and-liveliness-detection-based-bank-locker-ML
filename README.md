@@ -1,6 +1,7 @@
 # Face-and-liveliness-detection-based-bank-locker-ML
-face Recognition and Liveness Detection Based Bank Locker System  This project implements a secure bank locker access system using Face Recognition  combined with Liveness Detection to prevent spoofing attacks such as photo or video fraud.  
+face Recognition and Liveness Detection Based Bank Locker System -  This project implements a secure bank locker access system using Face Recognition  combined with Liveness Detection to prevent spoofing attacks such as photo or video fraud.  
 🔐 Face Recognition & Liveness Detection Based Bank Locker System
+
 📌 Project Overview
 
 This project presents a secure bank locker access system that integrates face recognition with liveness detection (eye blink verification) to ensure that only an authorized and physically present user can access the locker.
@@ -8,28 +9,28 @@ This project presents a secure bank locker access system that integrates face re
 Traditional biometric systems are vulnerable to spoofing attacks using photos, videos, or masks. To address this limitation, the system introduces a real-time liveness check, making it more robust and reliable for high-security environments such as bank lockers.
 
 🎯 Objectives
-To develop a contactless and secure authentication system
-To prevent spoofing attacks using static images or recorded videos
-To implement real-time face recognition with liveness validation
-To simulate secure locker access control
+  To develop a contactless and secure authentication system
+  To prevent spoofing attacks using static images or recorded videos
+  To implement real-time face recognition with liveness validation
+  To simulate secure locker access control
 🚀 Key Features
-1. Real-Time Face Detection
+  1. Real-Time Face Detection
 Detects human faces from a live webcam feed
 Uses Haar Cascade classifier for efficient detection
 Works under varying lighting conditions (with some limitations)
-2. Face Recognition
+  2. Face Recognition
 Compares detected face with pre-stored authorized user image
 Uses encoding-based matching for accuracy
 Provides quick authentication results
-3. Eye Blink Based Liveness Detection
+  3. Eye Blink Based Liveness Detection
 Detects eye regions using Haar Cascade
 Monitors eye state (open/closed)
 Requires a blink action to confirm user is live
 Prevents access using photos or screen replay attacks
-4. Anti-Spoofing Mechanism
+  4. Anti-Spoofing Mechanism
 Rejects static images without eye movement
 Ensures real human interaction before granting access
-5. Secure Locker Access Simulation
+  5. Secure Locker Access Simulation
 Grants access only when both conditions are satisfied:
 Face matches authorized user
 Liveness (blink) is verified
