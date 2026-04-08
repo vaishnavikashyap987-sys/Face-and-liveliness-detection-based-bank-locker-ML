@@ -13,6 +13,7 @@ Traditional biometric systems are vulnerable to spoofing attacks using photos, v
   To prevent spoofing attacks using static images or recorded videos
   To implement real-time face recognition with liveness validation
   To simulate secure locker access control
+      
       🚀 Key Features
       
   1. Real-Time Face Detection
@@ -36,7 +37,8 @@ Grants access only when both conditions are satisfied:
 Face matches authorized user
 Liveness (blink) is verified
 Displays access status: “Access Granted” / “Access Denied”
-           🧠 Technology Stack
+
+       🧠 Technology Stack
      
      Programming Language
      
@@ -64,6 +66,7 @@ Face-Liveness-Bank-Locker/
 └── cascades/
     ├── haarcascade_frontalface_default.xml   # Face detection model
     └── haarcascade_eye.xml                   # Eye detection model
+            
             ⚙️ Working Principle (Step-by-Step)
      
 Video Capture Initialization
@@ -99,11 +102,12 @@ Haar Cascade is less accurate compared to deep learning models
 
 🔮 Future Enhancements
 
-Multi-user support with database integration
-Integration with Deep Learning models (CNNs) for better accuracy
-Advanced liveness detection (head movement, depth sensing)
-Deployment with IoT-based smart lockers
-Integration with OTP or biometric multi-factor authentication
+Multi-user support with database integration.
+Integration with Deep Learning models (CNNs) for better accuracy.
+Advanced liveness detection (head movement, depth sensing).
+Deployment with IoT-based smart lockers.
+Integration with OTP or biometric multi-factor authentication.
+
 📌 Conclusion
 
 This project demonstrates a practical implementation of a secure and intelligent locker system using computer vision techniques. By combining face recognition with liveness detection, it significantly enhances authentication reliability and reduces vulnerability to spoofing attacks, making it suitable for real-world security applications.
