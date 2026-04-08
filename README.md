@@ -39,6 +39,7 @@ Displays access status: “Access Granted” / “Access Denied”
            🧠 Technology Stack
      
      Programming Language
+     
 Python – Core development and logic implementation
 Libraries & Frameworks
 OpenCV – Image processing and real-time video capture
@@ -48,7 +49,9 @@ NumPy – Array operations and calculations
 Machine Learning Models
 Haar Cascade Classifier (for face & eye detection)
 Pre-trained face recognition model (dlib-based)
+    
     📂 Project Structure
+    
 Face-Liveness-Bank-Locker/
 │
 ├── face_liveness_locker.py       # Main implementation file
